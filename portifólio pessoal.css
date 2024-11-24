@@ -1,0 +1,87 @@
+/* Estilo Global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c6b8ea; /* Cor de fundo aquática */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #7b4d7b; /* Cor roxa */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header h2 {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+/* Estilo da seção principal */
+main {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Listas e parágrafos */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Estilo da galeria de imagens */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.image-gallery img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Link do rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
