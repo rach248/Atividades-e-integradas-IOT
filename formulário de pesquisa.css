@@ -1,0 +1,86 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo geral do formulário */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d1eeeb;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Cabeçalho */
+header h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos grupos de input */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Estilo dos campos de texto e email */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Estilo do textarea */
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* Estilo dos botões de rádio e checkbox */
+.radio-group,
+.checkbox-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Botão de envio */
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Efeito de hover no botão, quando passar o mouse em cima  */
+button:hover {
+    background-color: darkgreen;
+}
