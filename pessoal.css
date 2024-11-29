@@ -1,0 +1,113 @@
+/* Estilo do botão Voltar */
+.botao.voltar {
+  background-color: #095b92; /* Cor de fundo do botão */
+  padding: 10px 20px; /* Define o tamanho do botão */
+  border-radius: 50px; /* Torna as bordas arredondadas */
+  text-align: center; /* Alinha o texto no centro do botão */
+  display: inline-block; /* Faz o botão se comportar como um bloco, mas sem ocupar toda a largura */
+  font-size: 1rem; /* Define o tamanho da fonte */
+  font-weight: bold; /* Define o texto como negrito */
+  color: #fff; /* Cor do texto (branco) */
+  text-decoration: none; /* Remove a decoração de link (linha) */
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo quando o botão é interagido */
+}
+.botao.voltar:hover {
+  background-color: #043d63; /* Cor de fundo do botão ao passar o mouse (efeito hover) */
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte para o corpo do site */
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+  background-color: rgb(204, 165, 241); /* Cor de fundo do corpo */
+  color: #333; /* Cor do texto */
+}
+
+/* Cabeçalho */
+header {
+  background-color: #43157d; /* Cor de fundo do cabeçalho */
+  color: white; /* Cor do texto do cabeçalho */
+  padding: 20px; /* Espaçamento interno no cabeçalho */
+  display: flex; /* Utiliza flexbox para layout */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+}
+
+/* Estilo do currículo e da tabela */
+header .container {
+  display: flex; /* Utiliza flexbox para layout */
+  justify-content: space-between; /* Espaça os itens igualmente nas extremidades */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  max-width: 1200px; /* Largura máxima do contêiner */
+  margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+  padding: 0 20px; /* Adiciona preenchimento nas laterais */
+}
+
+header h1 {
+  font-size: 1.5rem; /* Define o tamanho da fonte para o título */
+}
+
+header h1 span {
+  font-weight: 300; /* Define o peso da fonte para o texto dentro do <span> */
+  color: #ccc; /* Cor do texto dentro do <span> */
+}
+
+header ul {
+  list-style: none; /* Remove a lista padrão */
+  display: flex; /* Utiliza flexbox para o layout da lista */
+  gap: 20px; /* Espaço entre os itens da lista */
+}
+
+header ul li {
+  margin: 0; /* Remove a margem de cada item da lista */
+}
+
+header ul li a {
+  color: #fff; /* Cor dos links dentro da lista */
+  font-size: 1rem; /* Tamanho da fonte para os links */
+}
+
+/* Estilo da foto */
+.foto-perfil img {
+  width: 150px; /* Largura da imagem */
+  height: 150px; /* Altura da imagem */
+  object-fit: cover; /* Faz a imagem cobrir a área sem distorcer */
+  border-radius: 50%; /* Torna a imagem redonda */
+  margin-bottom: 1rem; /* Espaçamento abaixo da imagem */
+}
+
+/* Título principal do cabeçalho */
+header h1 {
+  font-size: 2rem; /* Define o tamanho da fonte para o título principal */
+  margin: 0; /* Remove a margem padrão do título */
+}
+
+/* Seções */
+section {
+  padding: 20px; /* Espaçamento interno das seções */
+  margin: 20px; /* Margem externa das seções */
+  background: rgb(211, 193, 233); /* Cor de fundo das seções */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque às seções */
+}
+
+h2 {
+  color: #43157d; /* Cor do título das seções */
+}
+
+p {
+  font-size: 1.1rem; /* Tamanho da fonte dos parágrafos */
+  line-height: 1.6; /* Altura da linha para melhorar a legibilidade */
+}
+
+/* Rodapé */
+footer {
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 2px; /* Espaçamento interno do rodapé */
+  background-color: #43157d; /* Cor de fundo do rodapé */
+  color: white; /* Cor do texto no rodapé */
+  position: fixed; /* Fixa o rodapé na parte inferior da tela */
+  width: 100%; /* O rodapé ocupa toda a largura da tela */
+  bottom: 0; /* Fixa o rodapé na parte inferior */
+}
