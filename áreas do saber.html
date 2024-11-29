@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áreas do saber</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="área.css">  <!--Arquivo CSS para a estilização do arquivo-->
+  </head>
+  <body>
+  
+  <header>
+      <div class="container">
+          <h1>Áreas do Saber</h1> <!-- Título principal da página -->
+      </div>
+  </header>
+  
+  <button class="botao voltar" onclick="window.history.back()">Voltar</button> <!-- Botão para voltar à página anterior -->
+  
+  <main> <!-- Contém o conteúdo principal da página -->
+      <section class="area" id="humanas"> <!-- Seção para a área de Ciências Humanas -->
+          <h2>Ciências Humanas</h2> <!-- Título da seção -->
+          <p><strong>Disciplinas:</strong> História, Geografia, Filosofia, Sociologia.</p> <!-- Descrição das disciplinas dessa área -->
+          <h2>Tarefas feitas durante o ensino médio</h2> <!-- Subtítulo para as tarefas feitas -->
+          <div class="foto-perfil">
+              <img src="humanas.jpeg" alt="Imagem representativa das Ciências Humanas"> <!-- Imagem representativa para Ciências Humanas -->
+          </div>
+      </section>
+  
+      <section class="area" id="natureza"> <!-- Seção para a área de Ciências da Natureza -->
+          <h2>Ciências da Natureza</h2> <!-- Título da seção -->
+          <p><strong>Disciplinas:</strong> Física, Química, Biologia.</p> <!-- Descrição das disciplinas dessa área -->
+          <h2>Tarefas feitas durante o ensino médio</h2> <!-- Subtítulo para as tarefas feitas -->
+          <div class="carousel"> <!-- Início da estrutura de carrossel de imagens -->
+              <button class="arrow left-arrow">←</button> <!-- Botão de navegação para a esquerda -->
+              <div class="carousel-container"> <!-- Contêiner para as imagens do carrossel -->
+                  <div class="carousel-track"> <!-- Rastreia as imagens dentro do carrossel -->
+                      <img src="natureza.jpeg" alt="Foto 1" class="carousel-image"> <!-- Imagem do carrossel -->
+                      <img src="natureza 2.jpeg" alt="Foto 2" class="carousel-image"> <!-- Imagem do carrossel -->
+                      <img src="natureza 3.png" alt="Foto 3" class="carousel-image"> <!-- Imagem do carrossel -->
+                  </div>
+              </div>
+              <button class="arrow right-arrow">→</button> <!-- Botão de navegação para a direita -->
+          </div>
+      </section>
+  
+      <section class="area" id="linguagens"> <!-- Seção para a área de Linguagens e Códigos -->
+          <h2>Linguagens e Códigos</h2> <!-- Título da seção -->
+          <p><strong>Disciplinas:</strong> Português, Inglês, Artes, Educação Física.</p> <!-- Descrição das disciplinas dessa área -->
+          <h2>Tarefas feitas durante o ensino médio</h2> <!-- Subtítulo para as tarefas feitas -->
+          <div class="carousel"> <!-- Início da estrutura de carrossel de imagens -->
+              <button class="arrow left-arrow">←</button> <!-- Botão de navegação para a esquerda -->
+              <div class="carousel-container"> <!-- Contêiner para as imagens do carrossel -->
+                  <div class="carousel-track"> <!-- Rastreia as imagens dentro do carrossel -->
+                      <img src="linguagens.jpeg" alt="Foto 1" class="carousel-image"> <!-- Imagem do carrossel -->
+                      <img src="linguagens 2.jpeg" alt="Foto 2" class="carousel-image"> <!-- Imagem do carrossel -->
+                      <img src="linguagens 3.jpeg" alt="Foto 3" class="carousel-image"> <!-- Imagem do carrossel -->
+                      <img src="linguagens 4.png" alt="Foto 4" class="carousel-image"> <!-- Imagem do carrossel -->
+                  </div>
+              </div>
+              <button class="arrow right-arrow">→</button> <!-- Botão de navegação para a direita -->
+          </div>
+      </section>
+  
+      <section class="area" id="matematica"> <!-- Seção para a área de Matemática -->
+          <h2>Matemática</h2> <!-- Título da seção -->
+          <p><strong>Disciplinas:</strong> Matemática, Estatística.</p> <!-- Descrição das disciplinas dessa área -->
+          <h2>Tarefas feitas durante o ensino médio</h2> <!-- Subtítulo para as tarefas feitas -->
+          <div class="carousel"> <!-- Início da estrutura de carrossel de imagens -->
+              <button class="arrow left-arrow">←</button> <!-- Botão de navegação para a esquerda -->
+              <div class="carousel-container"> <!-- Contêiner para as imagens do carrossel -->
+                  <div class="carousel-track"> <!-- Rastreia as imagens dentro do carrossel -->
+                      <img src="matematica 1.jpg" alt="Foto 1" class="carousel-image"> <!-- Imagem do carrossel -->
+                      <img src="matematica 2.jpg" alt="Foto 2" class="carousel-image"> <!-- Imagem do carrossel -->
+                      <img src="matematica 3.PNG" alt="Foto 3" class="carousel-image"> <!-- Imagem do carrossel -->
+                  </div>
+              </div>
+              <button class="arrow right-arrow">→</button> <!-- Botão de navegação para a direita -->
+          </div>
+      </section>
+  </main>
+  
+  <footer>
+      <p>&copy; 2024 - Página das Áreas do Saber</p> <!-- Rodapé com o copyright -->
+  </footer>
+  
+  <script src="site pessoal script.js"></script> <!-- Importação do arquivo JavaScript para interatividade -->  
+</body>
+</html>
