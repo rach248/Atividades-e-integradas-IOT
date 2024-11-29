@@ -1,0 +1,87 @@
+/* Estilo Global */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do corpo da página */
+    background-color: #c6b8ea; /* Cor de fundo aquática */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    color: #333; /* Cor do texto (escura para boa legibilidade) */
+}
+
+header {
+    background-color: #7b4d7b; /* Cor de fundo roxa */
+    color: #fff; /* Cor do texto em branco */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinha o conteúdo do header ao centro */
+}
+
+header h1 {
+    margin: 0; /* Remove a margem padrão */
+    font-size: 2em; /* Aumenta o tamanho da fonte para o título principal */
+}
+
+header h2 {
+    margin: 10px 0 0; /* Margem superior e inferior para separar o subtítulo */
+    font-size: 1.2em; /* Tamanho da fonte para o subtítulo */
+}
+
+/* Estilo da seção principal */
+main {
+    padding: 20px; /* Espaçamento interno da seção principal */
+}
+
+h3 {
+    font-size: 1.5em; /* Tamanho da fonte para subtítulos de nível 3 */
+    text-align: center; /* Alinha o título ao centro */
+    margin-top: 20px; /* Adiciona margem superior para separar do conteúdo anterior */
+}
+
+h4 {
+    font-size: 1.3em; /* Tamanho da fonte para subtítulos de nível 4 */
+    margin-bottom: 10px; /* Adiciona margem inferior */
+}
+
+h5 {
+    font-size: 1.1em; /* Tamanho da fonte para subtítulos de nível 5 */
+    margin-top: 10px; /* Adiciona margem superior */
+}
+
+/* Listas e parágrafos */
+ul {
+    list-style-type: square; /* Define os itens da lista com marcador quadrado */
+    padding-left: 20px; /* Adiciona espaçamento à esquerda da lista */
+}
+
+p {
+    font-size: 1em; /* Define o tamanho da fonte dos parágrafos */
+    margin-bottom: 10px; /* Adiciona margem inferior para separar os parágrafos */
+}
+
+/* Estilo da galeria de imagens */
+.image-gallery {
+    display: flex; /* Usa o modelo de layout flexível para as imagens */
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a linha seguinte, se necessário */
+    gap: 10px; /* Define o espaçamento entre as imagens */
+    justify-content: center; /* Centraliza as imagens */
+    margin-top: 10px; /* Adiciona margem superior */
+}
+
+.image-gallery img {
+    border-radius: 8px; /* Arredonda os cantos das imagens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra sutil nas imagens */
+}
+
+/* Link do rodapé */
+footer {
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+    margin-top: 20px; /* Adiciona margem superior */
+}
+
+footer a {
+    color: #0073e6; /* Define a cor do link no rodapé */
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-weight: bold; /* Torna o texto do link em negrito */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao link quando o mouse passa sobre ele */
+}
