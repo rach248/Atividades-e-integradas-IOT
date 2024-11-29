@@ -1,0 +1,134 @@
+/* Estilo global site pessoal*/
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão do corpo */
+  margin: 0; /* Remove as margens padrões */
+  padding: 0; /* Remove o padding padrão */
+  background-color: rgb(204, 165, 241); /* Define a cor de fundo do site */
+  color: #333; /* Define a cor do texto */
+}
+
+/* Estilo do Cabeçalho */
+header {
+  background-color: #43157d; /* Define a cor de fundo roxa do cabeçalho */
+  color: #fff; /* Define a cor do texto como branco */
+  padding: 1rem 0; /* Aplica o espaçamento interno vertical */
+  text-align: center; /* Centraliza o texto dentro do cabeçalho */
+}
+
+header h1 {
+  font-size: 2rem; /* Define o tamanho da fonte do título principal */
+  margin: 0; /* Remove a margem ao redor do título */
+}
+
+/* Estilo do Conteúdo Principal */
+main {
+  max-width: 800px; /* Limita a largura máxima do conteúdo */
+  margin: 2rem auto; /* Centraliza o conteúdo com margem ao redor */
+  padding: 0 1rem; /* Adiciona o espaçamento interno lateral */
+}
+
+/* Estilo das Áreas de Saber */
+.area {
+  background: rgb(211, 193, 233); /* Define a cor de fundo das áreas de saber */
+  border: 1px solid #ddd; /* Adiciona uma borda sutil */
+  border-radius: 8px; /* Torna as bordas arredondadas */
+  padding: 1.5rem; /* Aplica espaçamento interno */
+  margin-bottom: 1.5rem; /* Adiciona uma margem inferior entre as áreas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aplica uma sombra suave */
+}
+
+.area h2 {
+  font-size: 1.5rem; /* Define o tamanho da fonte para os subtítulos */
+  margin-bottom: 0.5rem; /* Adiciona uma margem inferior aos subtítulos */
+  color: #43157d; /* Define a cor roxa para os subtítulos */
+}
+
+.area p {
+  line-height: 1.6; /* Define a altura da linha para facilitar a leitura */
+}
+
+/* Estilo do Rodapé */
+footer {
+  text-align: center; /* Centraliza o texto no rodapé */
+  padding: 1rem 0; /* Adiciona espaçamento interno ao rodapé */
+  background-color: #43157d; /* Define a cor de fundo do rodapé */
+  color: #fff; /* Define a cor do texto no rodapé como branco */
+  margin-top: 2rem; /* Adiciona margem superior ao rodapé */
+}
+
+/* Estilo para as fotos de perfil */
+.foto-perfil img {
+  width: 100%; /* Faz as imagens se ajustarem à largura do contêiner */
+  height: 250%; /* Define a altura da imagem */
+  max-width: 800px; /* Garante que a imagem não ultrapasse 800px */
+  border-radius: 2%; /* Faz as imagens ficarem redondas */
+  margin: 10px auto; /* Adiciona margem ao redor da imagem */
+}
+
+/* Estilo para o Carrossel de Imagens */
+.carousel {
+  position: relative; /* Define a posição relativa para posicionamento das setas */
+  width: 80%; /* Define a largura do carrossel */
+  max-width: 600px; /* Limita a largura máxima do carrossel */
+  margin: 20px auto; /* Centraliza o carrossel e adiciona margem */
+  overflow: hidden; /* Garante que as imagens excedentes não apareçam */
+}
+
+.carousel-container {
+  overflow: hidden; /* Oculta o excesso de conteúdo */
+  width: 100%; /* Garante que a largura da área do carrossel ocupe 100% */
+}
+
+.carousel-track {
+  display: flex; /* Organiza as imagens em linha */
+  transition: transform 0.5s ease-in-out; /* Aplica animação ao mover as imagens */
+}
+
+.carousel-image {
+  min-width: 100%; /* Garante que cada imagem ocupe 100% da largura do carrossel */
+  object-fit: cover; /* Faz a imagem cobrir completamente a área disponível */
+}
+
+/* Estilo para as setas do carrossel */
+.arrow {
+  position: absolute; /* Posiciona as setas em relação ao carrossel */
+  top: 50%; /* Alinha as setas verticalmente no meio */
+  transform: translateY(-50%); /* Ajusta para centralizar perfeitamente */
+  background-color: rgba(0, 0, 0, 0.5); /* Aplica fundo escuro e transparente */
+  color: white; /* Define a cor das setas como branca */
+  border: none; /* Remove a borda padrão */
+  padding: 10px; /* Define o tamanho das setas */
+  font-size: 1.5rem; /* Define o tamanho do texto das setas */
+  cursor: pointer; /* Aplica cursor de clique ao passar por cima */
+  z-index: 1; /* Garante que as setas fiquem acima das imagens */
+}
+
+.left-arrow {
+  left: 10px; /* Posiciona a seta esquerda à esquerda */
+}
+
+.right-arrow {
+  right: 10px; /* Posiciona a seta direita à direita */
+}
+
+.arrow:focus {
+  outline: none; /* Remove a borda de foco */
+}
+
+/* Estilo para o botão Voltar */
+.botao.voltar {
+  background-color: #095b92; /* Define a cor de fundo do botão */
+  padding: 10px 20px; /* Define o tamanho do botão */
+  border-radius: 50px; /* Torna o botão arredondado */
+  text-align: center; /* Alinha o texto dentro do botão */
+  display: inline-block; /* Faz o botão se comportar como um bloco de linha */
+  font-size: 1rem; /* Define o tamanho da fonte do botão */
+  font-weight: bold; /* Deixa o texto em negrito */
+  color: #fff; /* Define a cor do texto como branco */
+  text-decoration: none; /* Remove o estilo de link */
+  transition: background-color 0.3s ease; /* Aplica efeito de transição ao passar o mouse */
+}
+
+.botao.voltar:hover {
+  background-color: #043d63; /* Altera a cor de fundo ao passar o mouse */
+}
