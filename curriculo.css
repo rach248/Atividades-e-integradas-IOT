@@ -1,0 +1,77 @@
+/* Estilos globais */
+body {
+    /* Define a fonte padrão para todo o documento e cor do texto */
+    font-family: Arial, sans-serif;
+    color: #000;
+    /* Remove as margens padrão e adiciona espaçamento interno */
+    margin: 0;
+    padding: 20px;
+    background-color: #ecdada; /* Define a cor de fundo para a página */
+}
+
+h1, h2 {
+    text-align: center; /* Centraliza os títulos */
+    margin-bottom: 10px; /* Define o espaçamento inferior */
+    color: #333; /* Define a cor do texto dos títulos */
+}
+
+h1 {
+    font-size: 2.5em; /* Define o tamanho da fonte do título principal */
+}
+
+h2 {
+    font-size: 1.8em; /* Define o tamanho da fonte dos subtítulos */
+}
+
+hr {
+    border: 0; /* Remove a borda padrão das linhas horizontais */
+    /* Define a altura e cor da linha */
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0; /* Adiciona espaçamento vertical antes e depois da linha */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    padding: 0;  /* Remove o espaçamento interno da lista */
+}
+
+ul li {
+    margin: 10px 0; /* Adiciona espaçamento entre os itens da lista */
+}
+
+a {
+    color: #0073e6; /* Define a cor padrão dos links */
+    text-decoration: none; /*Remove o sublinhado padrão dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+}
+
+/* Seções */
+section {
+    margin-bottom: 20px; /* Adiciona espaçamento inferior entre as seções */
+}
+
+#contato ul li {
+    font-size: 1em; /* Define o tamanho da fonte dos itens da seção de contato */
+}
+
+#objetivos p {
+    font-size: 1em; /* Define o tamanho da fonte e centraliza o texto na seção de objetivos */
+    text-align: center;
+}
+
+#formacao ul li,
+#habilidades ul li,
+#projetos ul li {
+    /* Define o tamanho da fonte e adiciona espaçamento interno para os itens de lista */
+    font-size: 1em;
+    padding: 5px 0;
+}
+
+#habilidades h2 {
+    /* Adiciona um espaçamento superior para os subtítulos na seção de habilidades */
+    margin-top: 20px;
+}
