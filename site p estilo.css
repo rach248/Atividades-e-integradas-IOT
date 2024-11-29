@@ -1,0 +1,147 @@
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte usada no corpo da página */
+  margin: 0; /* Remove as margens padrão do navegador */
+  padding: 0; /* Remove o padding padrão do navegador */
+  background-color: hsl(281, 43%, 73%); /* Define a cor de fundo do site usando valores HSL */
+  color: #333; /* Define a cor do texto */
+}
+
+h1, h2, p {
+  margin: 0; /* Remove margens dos títulos e parágrafos */
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: inherit; /* Faz os links herdarem a cor do seu elemento pai */
+}
+
+/* Cabeçalho */
+header {
+  background-color: #43157d; /* Define a cor de fundo do cabeçalho */
+  color: #fff; /* Define a cor do texto no cabeçalho */
+  padding: 1rem 0; /* Adiciona padding no topo e no fundo do cabeçalho */
+}
+
+header .container {
+  display: flex; /* Define que os itens dentro do cabeçalho serão dispostos em linha */
+  justify-content: space-between; /* Distribui os itens de forma igual, com espaço entre eles */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  max-width: 1200px; /* Define a largura máxima do container */
+  margin: 0 auto; /* Centraliza o container */
+  padding: 0 20px; /* Adiciona padding nas laterais do container */
+}
+
+header h1 {
+  font-size: 1.5rem; /* Define o tamanho da fonte do título */
+}
+
+header h1 span {
+  font-weight: 300; /* Define o peso da fonte do span dentro do título */
+  color: #ccc; /* Define a cor do texto do span */
+}
+
+header ul {
+  list-style: none; /* Remove os marcadores das listas */
+  display: flex; /* Exibe os itens da lista em linha */
+  gap: 20px; /* Define um espaço de 20px entre os itens */
+}
+
+header ul li {
+  margin: 0; /* Remove margens dos itens da lista */
+}
+
+header ul li a {
+  color: #fff; /* Define a cor do texto dos links no cabeçalho */
+  font-size: 1rem; /* Define o tamanho da fonte dos links */
+}
+
+/* Foto */
+.foto-perfil img {
+  width: 150px; /* Define a largura da imagem */
+  height: 150px; /* Define a altura da imagem */
+  object-fit: cover; /* Faz a imagem cobrir o espaço sem distorcer */
+  border-radius: 50%; /* Torna a imagem redonda */
+  margin-bottom: 1rem; /* Adiciona espaçamento abaixo da imagem */
+}
+
+/* Seção de introdução */
+.introducao {
+  text-align: center; /* Centraliza o texto dentro da seção */
+  padding: 2rem 1rem; /* Adiciona padding na seção */
+  background-color: #dacae4; /* Define a cor de fundo da seção */
+  max-width: 800px; /* Define a largura máxima da seção */
+  margin: 2rem auto; /* Centraliza a seção com espaçamento em cima e embaixo */
+  border-radius: 8px; /* Adiciona bordas arredondadas à seção */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave à seção */
+}
+
+.introducao .foto-perfil img {
+  width: 150px; /* Define a largura da imagem na introdução */
+  height: 150px; /* Define a altura da imagem na introdução */
+  border-radius: 50%; /* Torna a imagem redonda */
+  margin-bottom: 1rem; /* Adiciona espaçamento abaixo da imagem */
+}
+
+.introducao h2 {
+  font-size: 2rem; /* Define o tamanho da fonte do título */
+  color: #333; /* Define a cor do título */
+  margin-bottom: 1rem; /* Adiciona espaçamento abaixo do título */
+}
+
+.introducao p {
+  font-size: 1rem; /* Define o tamanho da fonte do parágrafo */
+  line-height: 1.6; /* Define o espaçamento entre linhas */
+  color: #666; /* Define a cor do texto do parágrafo */
+}
+
+.botoes {
+  margin-top: 1.5rem; /* Adiciona espaço acima dos botões */
+  display: flex; /* Exibe os botões em linha */
+  gap: 1rem; /* Define o espaçamento entre os botões */
+  justify-content: center; /* Centraliza os botões */
+}
+
+.botao {
+  display: inline-block; /* Exibe os botões como blocos inline */
+  padding: 0.8rem 1.5rem; /* Define o padding do botão */
+  border-radius: 50px; /* Torna os botões arredondados */
+  font-size: 1rem; /* Define o tamanho da fonte do botão */
+  font-weight: bold; /* Define a espessura da fonte do botão */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  color: #ffffff; /* Define a cor do texto do botão */
+  transition: background-color 0.3s ease; /* Adiciona transição suave na cor de fundo ao passar o mouse */
+}
+
+.botao.verde {
+  background-color: #09c752; /* Cor de fundo verde para o botão */
+}
+
+.botao.verde:hover {
+  background-color: #06672b; /* Cor de fundo verde mais escura ao passar o mouse */
+}
+
+.botao.vermelho {
+  background-color: #e74c3c; /* Cor de fundo vermelha para o botão */
+}
+
+.botao.vermelho:hover {
+  background-color: #81170b; /* Cor de fundo vermelha mais escura ao passar o mouse */
+}
+
+.botao.azul {
+  background-color: #095b92; /* Cor de fundo azul para o botão */
+}
+
+.botao.azul:hover {
+  background-color: #043d63; /* Cor de fundo azul mais escura ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+  text-align: center; /* Centraliza o texto do rodapé */
+  padding: 3rem 0; /* Adiciona padding no topo e embaixo do rodapé */
+  background-color: #43157d; /* Cor de fundo roxa para o rodapé */
+  color: #fff; /* Cor do texto do rodapé */
+  margin-top: 2rem; /* Adiciona espaço acima do rodapé */
+}
