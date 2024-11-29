@@ -1,0 +1,119 @@
+{
+    /* Remove margens e espaçamentos padrão de todos os elementos */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Define como o tamanho de elementos será calculado, incluindo bordas e preenchimento */
+    font-family: Arial, sans-serif; /* Define a fonte padrão para toda a página */
+}
+
+/* Estilo geral do formulário */
+body {
+    /* Centraliza o formulário horizontal e verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Define a altura mínima da página como o tamanho total da janela */
+    background-color: #d1eeeb; /* Cor de fundo do corpo da página */
+}
+
+.container {
+   /* Define a largura máxima do contêiner e ajusta dinamicamente para telas menores */
+   width: 100%;
+   max-width: 600px;
+   /* Adiciona preenchimento interno */
+   padding: 20px;
+   /* Define a cor de fundo do contêiner */
+   background-color: #fff;
+   /* Bordas arredondadas */
+   border-radius: 8px;
+   /* Adiciona uma sombra sutil ao contêiner */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   /* Centraliza o texto dentro do contêiner */
+   text-align: center;
+}
+
+/* Cabeçalho */
+header h1 {
+     /* Define a cor e tamanho da fonte do título principal */
+     color: #333;
+     font-size: 24px;
+     /* Espaçamento inferior do título */
+     margin-bottom: 10px;
+}
+
+header h2 {
+    /* Define a cor e tamanho da fonte do subtítulo */
+    color: #000000;
+    font-size: 18px;
+    /* Espaçamento inferior do subtítulo */
+    margin-bottom: 20px;
+}
+
+/* Estilo dos grupos de input */
+.input-group {
+    /* Espaçamento inferior entre os grupos de input */
+    margin-bottom: 15px;
+    /* Alinha os elementos de entrada à esquerda */
+    text-align: left;
+}
+
+/* Estilo dos campos de texto e email */
+input[type="text"],
+input[type="email"],
+textarea {
+    /* Define a largura total do campo */
+    width: 100%;
+    /* Espaçamento interno para tornar os campos mais confortáveis */
+    padding: 10px;
+    /* Espaçamento superior para separar o campo do rótulo */
+    margin-top: 5px;
+    /* Bordas arredondadas */
+    border-radius: 5px;
+    /* Define a borda padrão */
+    border: 1px solid #ccc;
+    /* Tamanho da fonte dentro dos campos */
+    font-size: 16px;
+}
+
+/* Estilo do textarea */
+textarea {
+    /* Permite redimensionar apenas na vertical */
+    resize: vertical;
+    /* Altura padrão do campo de texto */
+    height: 100px;
+}
+
+/* Estilo dos botões de rádio e checkbox */
+.radio-group,
+.checkbox-group {
+     /* Alinha o texto à esquerda */
+     text-align: left;
+     /* Espaçamento inferior entre os grupos */
+     margin-bottom: 15px;
+}
+
+/* Botão de envio */
+button {
+    /* Cor de fundo do botão */
+    background-color: green;
+    /* Cor do texto no botão */
+    color: white;
+    /* Espaçamento interno para aumentar a área clicável */
+    padding: 10px 20px;
+    /* Remove bordas padrão */
+    border: none;
+    /* Bordas arredondadas */
+    border-radius: 5px;
+    /* Tamanho da fonte do botão */
+    font-size: 16px;
+    /* Define o cursor como "mão" para indicar clicável */
+    cursor: pointer;
+    /* Faz o botão ocupar toda a largura do contêiner */
+    width: 100%;
+}
+
+/* Efeito de hover no botão, quando passar o mouse em cima  */
+button:hover {
+    /* Altera a cor de fundo para um tom mais escuro de verde */
+    background-color: darkgreen;
+}
