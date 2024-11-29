@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de pesquisa</title>
+    <link rel="stylesheet" href="formulário de pesquisa.css"> <!--Arquivo CSS para a estilização do arquivo-->
+</head>
+<body>
+    
+    <div class="container"> <!-- Div que agrupa todo o conteúdo da página, usado para organização -->
+        <header> <!-- Cabeçalho que apresenta o título e subtítulo da página -->
+            <h1>Opinião Fácil</h1> <!-- Título principal do formulário -->
+            <h2>Pesquisa de Satisfação de Navegação</h2> <!-- Subtítulo explicando o propósito da página -->
+        </header>
+
+        <form action="#" method="post"> <!-- Formulário para coleta de dados do usuário -->
+            <div class="input-group"> <!-- Div para agrupar o rótulo e o campo de entrada de texto -->
+                <label for="nome">Nome:</label> <!-- Rótulo associado ao campo de entrada de texto pelo atributo "for" -->
+                <input type="text" id="nome" name="nome"> <!-- Campo de entrada para o usuário digitar o nome -->
+            </div>
+
+            <div class="input-group"> <!-- Div para agrupar o rótulo e o campo de entrada de e-mail -->
+                <label for="email">Email:</label> <!-- Rótulo associado ao campo de entrada de e-mail -->
+                <input type="email" id="email" name="email"> <!-- Campo de entrada para o usuário digitar o e-mail -->
+            </div>
+
+            <h3>Avaliação de Navegação:</h3> <!-- Subtítulo para a seção de avaliação -->
+            <div class="radio-group"> <!-- Div que agrupa os botões de seleção (radio buttons) -->
+                <input type="radio" id="estrela1" name="avaliacao" value="1"> <!-- Botão de seleção para avaliação com 1 estrela -->
+                <label for="estrela1">1 Estrela</label><br> <!-- Rótulo associado ao botão de 1 estrela -->
+
+                <input type="radio" id="estrela2" name="avaliacao" value="2"> <!-- Botão de seleção para avaliação com 2 estrela -->
+                <label for="estrela2">2 Estrelas</label><br> <!-- Rótulo associado ao botão de 2 estrela -->
+
+                <input type="radio" id="estrela3" name="avaliacao" value="3"> <!-- Botão de seleção para avaliação com 3 estrela -->
+                <label for="estrela3">3 Estrelas</label><br> <!-- Rótulo associado ao botão de 3 estrela -->
+
+                <input type="radio" id="estrela4" name="avaliacao" value="4"> <!-- Botão de seleção para avaliação com 4 estrela -->
+                <label for="estrela4">4 Estrelas</label><br> <!-- Rótulo associado ao botão de 4 estrela -->
+
+                <input type="radio" id="estrela5" name="avaliacao" value="5"> <!-- Botão de seleção para avaliação com 5 estrela -->
+                <label for="estrela5">5 Estrelas</label><br> <!-- Rótulo associado ao botão de 5 estrela -->
+            </div>
+
+            <h3>Feedback:</h3> <!-- Subtítulo para a seção de feedback -->
+            <div class="checkbox-group"> <!-- Div que agrupa as caixas de seleção  -->
+                <input type="checkbox" id="facilidade" name="feedback" value="facilidade"> <!-- Caixa de seleção para indicar facilidade de navegação -->
+                <label for="facilidade">Facilidade de Navegação</label><br> <!-- Rótulo associado à caixa de seleção de facilidade -->
+
+                <input type="checkbox" id="design" name="feedback" value="design"> <!-- Caixa de seleção para indicar design do site -->
+                <label for="design">Design do Site</label><br> <!-- Rótulo associado à caixa de seleção de design -->
+
+                <input type="checkbox" id="velocidade" name="feedback" value="velocidade"> <!-- Caixa de seleção para indicar velocidade de carregamento -->
+                <label for="velocidade">Velocidade de Carregamento</label><br> <!-- Rótulo associado à caixa de seleção de velocidade -->
+            </div>
+
+            <div class="input-group"> <!-- Div para agrupar o rótulo e o campo de texto -->
+                <h3><label for="comentarios">Comentários Adicionais:</label></h3> <!-- Rótulo associado ao campo de texto para comentários -->
+                <textarea id="comentarios" name="comentarios"></textarea> <!-- Área de texto para o usuário digitar comentários adicionais -->
+            </div>
+
+            <button type="submit">Enviar</button> <!-- Botão que envia os dados do formulário -->
+        </form>
+    </div>
+
+
+</body>
+</html>
