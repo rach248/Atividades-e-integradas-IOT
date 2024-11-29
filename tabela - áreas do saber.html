@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela de áreas do saber da Raquel</title>
+    <link rel="stylesheet" type="text/css" href="tabela das áreas do saber estilo.css" media="all" /> <!--Arquivo CSS para a estilização do arquivo-->
+</head>
+<style>
+    /* Estilo global do corpo da página */
+    body {
+            font-family: Arial, sans-serif; /* Define a fonte padrão */
+            margin: 0; /* Remove a margem padrão */
+            padding: 0; /* Remove o padding padrão */
+            background-color: #c3e8b6; /* Cor de fundo suave */
+        }
+
+        /* Estilo do cabeçalho */
+        header {
+            background-color: #76954e; /* Cor de fundo verde escuro */
+            color: #fff; /* Cor do texto em branco */
+            padding: 10px; /* Espaçamento interno */
+            text-align: center; /* Alinha o conteúdo ao centro */
+        }
+
+        /* Estilo para a tabela */
+        table {
+            width: 80%; /* Largura da tabela, 80% da largura da tela */
+            margin: 20px auto; /* Margem superior de 20px e centraliza a tabela horizontalmente */
+            border-collapse: collapse; /* Desfazcom que as bordas para que fiquem juntas */
+            background-color: #fff; /* Cor de fundo branca para a tabela */
+        }
+
+        /* Estilo das células da tabela */
+        th, td {
+            border: 1px solid #ddd; /* Borda fina e suave nas células */
+            padding: 8px; /* Espaçamento interno nas células */
+            text-align: center; /* Alinha o texto ao centro */
+        }
+
+        /* Estilo para o cabeçalho da tabela */
+        th {
+            background-color: #f2f2f2; /* Cor de fundo para o cabeçalho */
+        }
+        </style>
+        </head>
+<body>
+    <!-- Cabeçalho da página com o nome e título -->
+    <header>
+        <h1>Raquel Pegoraro Rodrigues</h1> <!-- Título principal -->
+        <h2>Tabela de Áreas do Saber - Ensino Médio Técnico</h2> <!-- Subtítulo -->
+    </header>
+
+    <!-- Tabela com as áreas do saber e suas respectivas disciplinas -->
+    <table> <!--TABLE é usada para definir uma tabela no html-->
+        <tr> <!-- Define a linha de cabeçalho -->
+            <th>Áreas do Saber</th> <!-- Cabeçalho da primeira coluna -->
+            <th>Disciplinas</th> <!-- Cabeçalho da segunda coluna -->
+            <th>Professor (a)</th> <!-- Cabeçalho da terceira coluna -->
+        </tr>
+
+        <!-- Linha para a área Ciências Humanas -->
+        <tr class="ciências"> <!--TR é usada para definir a linha do centro de uma tabela -->
+            <td rowspan="4">Ciências Humanas</td> <!-- Celula combinada para 4 linhas -->
+            <td>Geografia</td> <!--TD define a célula de dados da tabela-->
+            <td>Professora Thais</td>
+        </tr>
+        <tr class="ciências">
+            <td>História</td>
+            <td>Professor Victor</td>
+        </tr>
+        <tr class="ciências">
+            <td>Filosofia</td>
+            <td>Professora Luisa</td>
+        </tr>
+        <tr class="ciências">
+            <td>Sociologia</td>
+            <td>Professor Diogo</td>
+        </tr>
+
+        <!-- Linha para a área Linguagens -->
+        <tr class="linguagens">
+            <td rowspan="4">Linguagens</td> <!-- Celula combinada para 4 linhas -->
+            <td>Português</td>
+            <td>Professora Giselle</td>
+        </tr>
+        <tr class="linguagens">
+            <td>Inglês</td>
+            <td>Professora Naja</td>
+        </tr>
+        <tr class="linguagens">
+            <td>Artes</td>
+            <td>Professora Marcela</td>
+        </tr>
+        <tr class="linguagens">
+            <td>Educação Física</td>
+            <td>Professor José Ricardo</td>
+        </tr>
+
+        <!-- Linha para a área Ciências da Natureza -->
+        <tr class="ciência">
+            <td rowspan="3">Ciências da Natureza</td> <!-- Celula combinada para 3 linhas -->
+            <td>Química</td>
+            <td>Professora Francisca</td>
+        </tr>
+        <tr class="ciência">
+            <td>Física</td>
+            <td>Professor Thaioã</td>
+        </tr>
+        <tr class="ciência">
+            <td>Biologia</td>
+            <td>Professor Robson</td>
+        </tr>
+
+        <!-- Linha para a área Matemática -->
+        <tr class="matemática">
+            <td>Matemática</td>
+            <td>Matemática</td> <!-- Repetição do título "Matemática" para a disciplina -->
+            <td>Professor Clóvis</td>
+        </tr>
+
+        <!-- Linha para a área de Internet das Coisas -->
+        <tr class="Iot">
+            <td>Internet Das Coisas</td>
+            <td>Formação Técnica</td>
+            <td>Professor Glauco</td>
+        </tr>
+    </table>
+</body>
+</html>
